@@ -355,7 +355,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 18px;
     align-items: start;
-    padding-bottom: 14px;
+    padding: 2rem 0 2.2rem;
 }
 
 
@@ -475,7 +475,9 @@ nav a:hover {
 
 /* Footer bottom */
 .footer-bottom {
-    padding: 12px 0 6px;
+    border-top: 1px solid rgba(255, 170, 250, 0.5);
+    box-shadow: inset 0 4px 6px -6px rgb(255, 170, 250);
+    padding: 2rem 0 1rem;
     color: var(--muted);
     font-size: 0.92rem;
 }
@@ -512,7 +514,7 @@ nav a:hover {
         grid-template-columns: 1fr;
         display: flex;
         flex-direction: column-reverse;
-        
+
     }
 
     .nutri-text {
