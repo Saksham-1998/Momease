@@ -34,9 +34,7 @@ body {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
 }
 
-/* --------------------------
-   Containers
-   -------------------------- */
+/* ------ Containers----- */
 .container,
 .container-detail {
     max-width: var(--max-width);
@@ -54,9 +52,7 @@ body {
     color: var(--muted);
 }
 
-/* --------------------------
-   Header / Nav
-   -------------------------- */
+/* ----- Header / Nav ---- */
 header {
     position: sticky;
     top: 0;
@@ -144,9 +140,7 @@ nav a:hover {
 }
 
 
-/* --------------------------
-   Hero Section
-   -------------------------- */
+/* ------ Hero Section--- */
 .hero {
     position: relative;
     padding-top: 50px;
@@ -157,7 +151,6 @@ nav a:hover {
     overflow: hidden;
 }
 
-/* soft decorative glow */
 .hero::before {
     content: "";
     position: absolute;
@@ -184,7 +177,7 @@ nav a:hover {
     font-size: 2.6rem;
     color: var(--theme-600);
     font-weight: 800;
-    letter-spacing: 0.5px;    
+    letter-spacing: 0.5px;
 }
 
 .hero-text p {
@@ -226,9 +219,7 @@ nav a:hover {
 
 
 
-/* --------------------------
-   Nutri Section
-   -------------------------- */
+/* --------- Nutri Section -------- */
 .nutri {
     padding: 48px 0;
 }
@@ -285,9 +276,7 @@ nav a:hover {
 }
 
 
-/* --------------------------
-   Detail Cards Section
-   -------------------------- */
+/* ----------- Detail Cards Section --- */
 .detail {
     padding: 36px 0 56px;
     background: linear-gradient(180deg, rgba(156, 0, 204, 0.03), rgba(156, 0, 204, 0.01));
@@ -314,7 +303,7 @@ nav a:hover {
     border: 1px solid rgba(156, 0, 204, 0.045);
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 18px;
     min-height: 180px;
 }
 
@@ -331,20 +320,23 @@ nav a:hover {
     text-align: center;
 }
 
-.detail-card p {
+.detail-card ul {
     margin: 0;
     font-size: 0.95rem;
     color: #333;
 }
 
+.detail-card ul li {
+    margin-bottom: 15px;
+}
+
+
 /* Use bullets with subtle color */
-.detail-card p::marker {
+.detail-card ul li::marker {
     color: var(--theme-600);
 }
 
-/* --------------------------
-   Footer
-   -------------------------- */
+/* ------- Footer ------- */
 .footer {
     margin-top: 36px;
     background: linear-gradient(180deg, #f8f6fb, #fff);
@@ -489,9 +481,7 @@ nav a:hover {
     font-size: 0.92rem;
 }
 
-/* --------------------------
-   Responsive
-   -------------------------- */
+/* ----------  Responsive ------- */
 @media (max-width: 980px) {
     .detail-cards {
         grid-template-columns: repeat(2, 1fr);
@@ -616,9 +606,6 @@ button:focus {
     outline-offset: 2px;
 }
 
-/* --------------------------
-   Tiny helpers for consistent visuals
-   -------------------------- */
 img {
     max-width: 100%;
     display: block;
