@@ -206,7 +206,7 @@ nav a:hover {
 
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 .image-container img {
@@ -232,7 +232,6 @@ nav a:hover {
 
 .nutri-image img {
     width: 100%;
-    max-width: 420px;
     height: auto;
     border-radius: 18px;
     box-shadow: var(--elev);
@@ -511,6 +510,9 @@ nav a:hover {
 
     .nutri-content {
         grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column-reverse;
+        
     }
 
     .nutri-text {
