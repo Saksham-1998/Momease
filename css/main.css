@@ -174,17 +174,17 @@ nav a:hover {
 }
 
 .hero-text h2 {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
+    font-weight: 700;
     color: var(--theme-600);
-    font-weight: 800;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.2px;
 }
 
 .hero-text p {
     margin: 0 0 22px;
-    max-width: 520px;
     color: #333;
-    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .hero-buttons .exp {
@@ -233,10 +233,6 @@ nav a:hover {
 .nutri-image img {
     width: 100%;
     height: auto;
-    border-radius: 18px;
-    box-shadow: var(--elev);
-    border: 1px solid rgba(156, 0, 204, 0.06);
-    background: linear-gradient(180deg, rgba(250, 244, 255, 1), #fff);
 }
 
 /* Title */
@@ -247,7 +243,8 @@ nav a:hover {
 
 .section-title h3 {
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
+    font-weight: 700;
     color: var(--theme-600);
     letter-spacing: 0.2px;
 }
@@ -361,10 +358,10 @@ nav a:hover {
 
 .footer-head {
     margin-bottom: 3px;
-    font-size: 1.6rem;
+    font-size: 2.3rem;
+    font-weight: 700;
     color: var(--theme-600);
     letter-spacing: 0.2px;
-    font-weight: bold;
 }
 
 /* Social links */
